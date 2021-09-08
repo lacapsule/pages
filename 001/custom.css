@@ -1,0 +1,50 @@
+:root {
+    --bk: black;
+    --img1: #A4243B;
+    --img2: #D8C99B;
+    --img3: #D8973C;
+    --img4: #BD632F;
+    --img5: #273E47;
+}
+@keyframes slideshow {
+    0% {
+        top: 0;
+    }
+    19% {
+        top: 0;
+    }
+    20% {
+        top: -100%;
+    }
+    39% {
+        top: -100%;
+    }
+    40%{
+        top: -200%;
+    }
+    59% {
+        top: -200%;
+    }
+    60% {
+        top: -300%;
+    }
+    79% {
+        top: -300%;
+    }
+    80% {
+        top: -400%;
+    }
+    99% {
+        top: -400%;
+    }
+    100% {
+        top: -400%;
+    }
+}
+@keyframes bounce {
+    from {}
+    50% {
+        font-size: 5rem;
+    }
+    to {}
+}

@@ -1,0 +1,62 @@
+@import '../reset.css';
+@import 'custom.css';
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bk);
+    opacity: 0.8;
+    overflow: hidden;
+}
+div {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+span {
+    display: flex;
+    position: relative;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+span:nth-child(1) {
+    animation: 14s ease slideshow infinite;
+}
+span:nth-child(2) {
+    animation: 14s ease slideshow infinite;
+}
+span:nth-child(3) {
+    animation: 14s ease slideshow infinite;
+}
+span:nth-child(4) {
+    animation: 14s ease slideshow infinite;
+}
+span:nth-child(5) {
+    animation: 14s ease slideshow infinite;
+}
+span:nth-child(6) {
+    animation: 14s ease slideshow infinite;
+}
+span:nth-child(7) {
+    animation: 14s ease slideshow infinite;
+}
+span:nth-child(8) {
+    animation: 14s ease slideshow infinite;
+}
+span:nth-child(9) {
+    animation: 14s ease slideshow infinite;
+}
+span:nth-child(10) {
+    animation: 14s ease slideshow infinite;
+}
+img {
+    width: 30%;
+    height: auto;
+}
